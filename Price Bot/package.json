@@ -1,0 +1,26 @@
+{
+  "name": "safebot",
+  "version": "1.1.0",
+  "description": "Discord bot for SafeMoon",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "shard": "node ./src/init.js",
+    "dev:local": "nodemon ./src/bot.js",
+    "dev:shard": "nodemon ./src/init.js",
+    "docker:local": "npm install && nodemon ./src/bot.js",
+    "docker:shard": "npm install && nodemon ./src/init.js"
+  },
+  "author": "Henry Wyatt",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

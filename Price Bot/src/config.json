@@ -1,0 +1,7 @@
+{
+    "token": "LGATE",
+    "prefix": "!",
+    "mongoPath": "mongodb://db:27017/",
+    "contractAddress": "0x847ee730c8163c0334c5049331ca884d7ff2e212",
+    "bscScanApiKey": "5WDMSJPUC5MCWQZ4CYVS858WME51FJB55V"
+}
